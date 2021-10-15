@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,8 @@
 </head>
 <body>
 
-<?php require __DIR__ . "/database.php"; ?>
+<?php require __DIR__ . "/importazione/database.php"; ?>
+
 
     <div class="box">
         <?php foreach ($albums as $album){; ?>
